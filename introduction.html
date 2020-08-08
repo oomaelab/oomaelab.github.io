@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="robots" content="noarchive" />
+<title>研究紹介 -大前研究室-</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<!-- jQuery library (served from Google) -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script type="text/javascript" src="jquery.bxslider/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+
+<script type="text/javascript">
+  jQuery(document).ready(function($){    
+　　$('.bxslider').bxSlider({
+  auto: true,
+  autoControls: true
+});
+  });
+</script>
+
+<!--
+<?php
+    include_once '/var/www/cgi-bin/counter.php';
+    $fname = '/var/www/cgi-bin/log/counter_introduction.txt';
+    $counter = new Viewcounter();
+    $counter->count( $fname );
+?> 
+-->
+
+
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td colspan="2">
+			<div align="center">
+			<img alt="Logo" height="86" src="customLogo.gif" width="374" /><br />
+			本研究室では、電子材料・磁性材料・光学材料に関する研究を行っています。<br />
+			<?php echo  file_get_contents("navigator.txt");?>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" valign="top">
+		<span class="auto-style5"><strong>－研究内容－</strong></span><br />
+		<span class="auto-style3">
+		<p id="c2">
+			　このページは来年度、５年生で卒業研究のために研究室に入る電子工学分野の４年生向けに書かれています。当分野の学生は、３年生までは主に電子回路や電気回路、プログラミングについて学んできており、
+			電子材料を学ぶのは４年生の後期になってからです。そのため、電子材料について興味をもつというのは難しいのだろうと思います。できるだけ平易に研究紹介をしたいと思います。
+		</p>
+
+		</span>
+		<div style="width:360px;">			
+			<ul class="bxslider" style="width:360px; height:250px;" >
+			  <li>
+			  	<img alt="elements" src="jquery.bxslider/elements.png" align="middle" height="193" width="287" /><br />
+			  </li>
+			  <li>
+			  	<img alt="crystal_top" height="167" src="jquery.bxslider/crystal_top.png" width="292" align="middle" />
+			  </li>
+			  <li>
+				  <img alt="xrd_top" height="193" src="jquery.bxslider/xrd_top.png" width="318" align="middle" /><br />
+			  </li>
+			</ul>
+		</div>
+
+		<span class="auto-style4"><strong>電子材料に関する研究について</strong></span>
+		<span class="auto-style3">
+		<p id="c2">
+			　電子工学（エレクトロニクス）で使うためには、信号（電圧や電流、光、圧力、磁気など）を素子が感知し、
+			それが電圧または電流の形に変換され、２年生や３年生の実験でいつも使ってきた電圧計や電流計で測定可能になる必要があります。
+			それらが最終的にセンサーに使われるか、発電デバイスに使われるかなどの違いはありますが、そのようなものを電子材料と呼んでよいと思います。
+			また、逆に電圧や電流を素子に入力することで、光を発したり、磁気を帯びたりするものも電子材料と呼ばれます。			
+		</p>
+		<p id="c2">
+			　十分に成熟した現代では、通常の生活の中で、こんな新しいデバイスがあったらよいのに、と考えることは難しいと思います。
+			しかし、すでにあるデバイスの中には、問題を抱えているものが複数存在します。
+			代表的なものをあげると、光センサーやLEDなどはカドミウムやヒ素などの有毒な元素とインジウムなどのレアメタルを含んでいます。
+			可能ならば、安全かつ入手のしやすい元素で作製でできた方がよいでしょう。
+		</p>
+		<p id="c2">
+			　また、近年、授業で学んだIoTやビッグデータの活用を背景に、大容量の記憶デバイスの需要が増しています。
+			年々、HDDやSSDの記憶容量が増えているので、実感がある人もいると思います。
+			加えて、パソコンやサーバー、マイコンなどのコンピュータを多く利用する現代では、容量の増加と平行してコンピュータの消費電力の低減も課題です。
+			容量の増加や消費電力の低減は、デバイスの改良だけでなく、使用する材料の変更によっても実現できます。　
+		</p>
+		<p id="c2">
+			　このような理由で、当研究室では電子材料について研究をおこなっています。　
+		</p>
+		</span>
+		<br />
+		<strong><span class="auto-style4">どのような学生に来てほしいか</span></strong>
+		<span class="auto-style3">
+		<p id="c2">
+			　４年生の電子材料の講義を受けて、もっと詳しく学びたいと思った人はこの分野に親和性があると考えてよいと思います。
+		</p>
+		<p id="c2">
+			　まず、２年生まで学んだ化学に興味がある人にも来てほしいと思います。
+			エタノールなどのアルコールを溶媒とし、塩化すず・２水和物やチオ尿素などを溶質として溶かし、その溶液を加熱することで、硫化すずという1.3eVのバンドギャップをもつ半導体を作製するという研究をおこなっています。
+			溶液に酸やキレート剤を追加で混ぜるということをするのですが、反応過程を考えることができるとより研究を楽しめると思います。
+		</p>
+		
+		<p id="c1">
+			<img alt="furnace" height="180" src="images/sol-gel.jpg" width="240" /><br />
+		</p>
+		<span class="auto-style3">
+		<p id="c3">
+			溶媒などの条件を変えて作製した溶液
+		</p>
+		</span>
+		<p id="c1">
+			<img alt="furnace" height="180" src="images/SnS_film.jpg" width="240" /><br />
+		</p>
+		<p id="c2">
+			溶液をガラス板に塗って300度で加熱し、溶媒を蒸発させて得られた膜。膜が黒いのは可視光を吸収するバンドギャップをもつ半導体であるため
+		</p>
+		<p id="c2">
+			　また、４年生で学んだ数値解析について興味がある人にも来てほしいです。
+			強磁性体（磁石のこと）の研究がこの十数年、活発に行われている背景を受けて、磁性体のシミュレーションプログラムを作製しています。
+			磁性体内部の磁気が時間と空間を変数とする偏微分方程式で記述できるのですが、それを手計算で行えるのは球や無限遠に長い円柱や、無限遠に平たい直方体だけです。
+			ベクトル解析の知識が必要になるので数学が苦手ではなく、かつプログラミングも苦手でないという条件に当てはまる人でないとこの研究は進められないと思います。
+		</p>
+		<p id="c1">
+			<img alt="furnace" src="images/LLG.png" width="500" /><br />
+		</p>
+		<p id="c2">
+			対象とする磁性材料や形状に対して、有効磁場をどのように記述するか、どのような数値解析アルゴリズムを構築するかが課題となる
+		</p>
+		<br />
+		<p id="c2">
+			　また、どこで聞きかじったかわかりませんが、真空機器と取扱い技術を習得したいという方も受け入れられると思います。
+			残念ながらターボ分子ポンプの中を見てみたいと言われても壊れると非常に困るので見せてあげることはできませんんが、大気圧から高真空まで持っていくにはどうすればよいかや、真空漏れの対策、ベーキングの効果を体験することはできます。
+		</p>
+		<p id="c1">		
+			<img alt="MBE" height="249" src="images/MBE.jpg" width="360" /><br />
+		</P>
+		<p id="c2">
+			分子線エピタキシー装置。ゲートバルブの開閉手順などを間違えると大変なことになるので残念ながら学生に使わせてあげることはできない
+		</p>
+		<br />
+		<p id="c2">
+			　教員側もどうすればうまくいくのか、どういう結果が得られるのかやってみないと分からないことを対象に研究しているので、地道に目標に向かって試行錯誤を繰り返しながら進めることが出来る人で、これらのどれかに興味があれば、ぜひ希望してください。
+		</p>
+		</span>
+
+		<br /><br /><br />
+		<!---
+		<span class="auto-style5"><strong>－試料の作製方法－</strong></span>
+		<br />
+		<span class="auto-style3">
+		<div id="c1">
+		<p id="c2">
+		本研究室では、目的の試料を作製するために次のような方法で薄膜状の物質や粉末の物質を作製しています。
+		</p>
+		</div>
+		</span>
+		<br />
+		<span class="auto-style4"><strong>有機金属熱分解法(Metal organic decompostion)</strong></span>
+		<span class="auto-style3">
+		<div id="c1">
+		<p id="c2">
+		金属Mを含むカルボン酸塩M(RCOO)<sub>n</sub>を有機溶剤へ溶解させ、前駆体溶液とします。<br />
+		この前駆体溶液をガラス基板や半導体基板に塗布し、乾燥、仮焼成、本焼成を経て目的の酸化物材料を作製しています。
+		</p>
+		</div>
+		</span>
+		<br />
+		<span class="auto-style4"><strong>ゾルゲル法（Sol-gel method）</strong></span>
+		<span class="auto-style3">
+		<div id="c1">
+		<p id="c2">
+		金属Mを含む酢酸塩M(CH<sub><span class="auto-style6">3</span></sub>COO)<sub>n</sub>をアルコールなどへ溶解させ、前駆体溶液とします。<br />
+		この前駆体溶液をガラス基板や半導体基板に塗布し、乾燥、仮焼成、本焼成を経て目的の酸化物材料を作製します。<br />
+		また、前駆体に硫黄源を入れたり、本焼成を硫黄雰囲気化でおこなうことで硫化物材料とすることができます。
+		</p>
+		</div>
+		</span>
+
+		<br />
+		<strong><span class="auto-style4">真空蒸着法（Vacuum evaporation）</span></strong>
+		<span class="auto-style3">
+		<div id="c1">
+		<p id="c2">
+		真空中で金属を加熱し、蒸発または昇華させることで半導体基板上に金属の薄い膜（100nm～1μm）を作製します。<br />
+		また、1000℃近くで昇華する物質であれば、酸化物なども可能です。
+		</p>
+		</div>
+		</span>
+
+		<br />
+		<span class="auto-style4"><strong>固相反応法(Solid state reaction)</strong></span>
+		<span class="auto-style3">
+		<div id="c1">
+		<p id="c2">
+		複数の酸化物粉末を混合し、高温で加熱し、反応を促進させることで目的の酸化物粉末を得ます。
+		</p>
+		</div>
+		</span>
+		<br />
+		<br />
+		<br />
+		<span class="auto-style5"><strong>－試料の評価方法－</strong></span>
+		<br /><br />
+		<span class="auto-style4"><strong>電気特性評価</strong></span>
+		<span class="auto-style3">
+		<div id="c1">
+		<p id="c2">
+		研究室では、薄膜の電気抵抗率を測定する方法であるVan der Pauw法を用いています。<br />
+		薄膜試料の四隅に電極を設け、２端子に電流源、対面の２端子に電圧計を設けシート抵抗を測定します。<br />
+		これを計８パターンおこなう。これらのシート抵抗値と膜厚から抵抗率を算出します。<br />
+		また、針を当てる四探針法も用いることができます。キャリア型、キャリア濃度、移動度の評価にはホール効果測定ができます。
+		</p>
+		</div>
+		</span>
+		<br />
+		<br />
+		<strong><span class="auto-style4">形状評価</span></strong>
+		<span class="auto-style3">
+		<div id="c1">
+		<p id="c2">
+		サンプルの微細な構造を観察するために、	光ではなく電子線を用いる走査型電子顕微鏡で、表面や断面の構造を観察できます。<br />
+		また、原子間力顕微鏡も用いることができます。
+		</p>
+		</div>
+		</span>
+
+		<br />
+		<span class="auto-style4"><strong>光学特性評価</strong></span>
+		<span class="auto-style3">
+		<div id="c1">
+		<p id="c2">
+		透過率・反射率測定：　ハロゲン光源などの光を薄膜材料に透過・反射させ、分光することで試料の透明度やバンドギャップを測定できます。<br />
+		蛍光分光測定：　蛍光体を紫外線（波長は254 nm、365 nm）で励起し、発せられる蛍光を分光器に取り込み、蛍光波長と蛍光強度を測定します。<br />
+		</p>
+		</div>
+		</span>
+		<br />
+		-->
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="auto-style1"><br />
+		<span class="auto-style3"><?php echo  file_get_contents("copyright.txt");?></span></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

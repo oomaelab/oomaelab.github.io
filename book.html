@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="robots" content="noarchive" />
+<title>実験装置 -大前研究室-</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<!--
+<?php
+    include_once '/var/www/cgi-bin/counter.php';
+    $fname = '/var/www/cgi-bin/log/counter_equipment.txt';
+    $counter = new Viewcounter();
+    $counter->count( $fname );
+?> 
+-->
+
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td colspan="2">
+			<div align="center">
+			<img alt="Logo" height="86" src="customLogo.gif" width="374" /><br />
+			本研究室では、電子材料・磁性材料・光学材料に関する研究を行っています。<br />
+			<?php echo  file_get_contents("navigator.txt");?>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" style="height: 669px">
+		<div align="center">
+		<span class="auto-style5"><strong>おすすめの本</strong></span><br />
+		<br />
+		<br />
+		講義で固体デバイスについて取り扱っています。<br>
+		固体デバイスの難しいところは、それらが電子の動きでどれもが説明されてしまうところだと思います。<br>
+		電子の運動はどうしても量子力学を使わなければいけないからです。<br>
+		また、がんばって計算した結果は、古典物理と同様にイメージしにくい場合があります。<br>
+		そのようなときはプログラムを組み、パソコン上で物体を動かしてみるのがよいと思います。<br>
+		幸い、微分方程式を解くことは容易です。これらの参考としていくつかの本を列挙しました。<br><br>
+		<span class="auto-style4">－半導体の物理に関連する本－</span><br /><br />
+		半導体の物理 / 西澤潤一 編 ; 御子紫宣夫 著<br />
+		光物性 / 伊吹順章　著<br />
+		発光の物理 / 小林洋志　著<br />
+		量子力学 / ディラック　著<br />
+		<br />
+		<br />
+		<span class="auto-style4">－磁性材料の物理に関連する本－</span><br /><br />
+		強磁性体の物理 上 : 物質の磁性 / 近角聰信 著<br />
+             強磁性体の物理 下 : 磁気特性と応用 / 近角聰信 著<br />
+		<br />
+		<br />
+		<span class="auto-style4">－半導体材料などの薄膜作製法に関連する本－</span><br /><br />
+		分子線エピタキシー / 権田俊一 編著<br />
+		<br />
+		<br />
+		<span class="auto-style4">－プログラミングに関連する本－</span><br /><br />
+		猫でもわかるC#プログラミング / 粂井康孝  著<br />
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="auto-style1"><br />
+		<span class="auto-style3"><?php echo  file_get_contents("copyright.txt");?></span></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

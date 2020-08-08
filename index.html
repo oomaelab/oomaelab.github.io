@@ -1,39 +1,147 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>大前研究室<br>LEARN TO BE CREATIVE.</h1>
-      <p>釧路高専　電子工学分野　機能材料研究室のホームページです。<br>電子材料の研究や，分光法による物質の測定を行っています。</p>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  
-  <footer>
-    
-  </footer>
+<head>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="robots" content="noarchive" />
+<title>HOME -大前研究室-</title>
+
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<!--
+<?php
+    include_once '/var/www/cgi-bin/counter.php';
+    $fname = '/var/www/cgi-bin/log/counter_index.txt';
+    $counter = new Viewcounter();
+    $counter->count( $fname );
+?> 
+-->
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td colspan="2">
+			<div align="center">
+			<img alt="Logo" height="86" src="customLogo.gif" width="374" /><br />
+			本研究室では、電子材料・磁性材料・光学材料に関する研究を行っています。<br />
+			Update: 2019/9/25<br />
+			<?php echo  file_get_contents("navigator.txt");?>
+			</div>
+		</td>
+	</tr>
+	<tr>
+	<td>
+		<div align="center">
+		<p id="c3"><br /><br />学生の研究テーマ</p>
+		<textarea name="TextArea1" style="width: 650px; height: 400px; color: #FFF; background-color: #17aa56; font-size: small;" disabled="disabled">
+2019年度
+● [専攻科２年]マイクロマグネティクスによる磁化反転のモデル化（大学院へ進学）
+● [本科生５年]マイクロマグネティクスシミュレーションソフトのインターフェイス開発（就職）
+● [本科生５年]マイクロマグネティクスによる自発磁化のシミュレーション（専攻科進学）
+● [本科生５年]磁気光学効果測定装置の開発（専攻科進学x2、就職x1）
+● [本科生５年]ゾルゲル法による蛍光体粉末作製時の溶媒への酸添加の影響（大学進学）
+● [本科生５年]ゾルゲル法による蛍光体粉末に対するSn添加の影響（大学進学）
+
+2018年度
+● [専攻科２年]太陽電池応用のための硫化スズ薄膜の作製（就職）
+● [専攻科２年]SnS/CdS/ZnO接合の作製（就職）
+
+2017年度
+● [専攻科２年]第一原理バンド計算によるSnSの電子状態計算（就職）
+● [専攻科２年]第一原理バンド計算による鉛ペロブスカイトの電子状態計算（就職）
+● [専攻科２年]真空蒸着法による酸化亜鉛薄膜の作製と導電率・透過率制御（就職）
+● [専攻科１年]真空蒸着法を用いたZnO/SnS接合の作製
+● [専攻科１年]真空蒸着および硫化法を用いたSnSの特性評価
+● [本科生５年]透過型電子顕微法による半導体材料の微細構造分析（大学編入学）
+● [本科生５年]マイクロマグネティクスよる磁化反転のモデル化（専攻科進学）
+
+2016年度
+● [専攻科２年]ゾルゲル法による硫化スズ薄膜の作製（就職）
+● [専攻科２年]ゾルゲル法によるNiO/ZnO pn接合ダイオードの作製（大学院進学）
+● [専攻科１年]第一原理バンド計算によるSnSの電子状態計算
+● [専攻科１年]第一原理バンド計算による鉛ペロブスカイトの電子状態計算
+● [専攻科１年]真空蒸着法による酸化亜鉛薄膜の作製と導電率・透過率制御
+● [本科生５年]真空蒸着法を用いた硫化スズ薄膜の作製（就職）
+● [本科生５年]真空蒸着法を用いたZnO/SnS接合の作製（専攻科進学）
+
+2015年度
+● [専攻科１年]硫化物太陽電池材料に関する研究
+● [専攻科１年]ゾルゲル法により作製したNiO薄膜の構造分析
+● [本科生５年]ゾルゲル法によるp型透明導電膜の低温作製のための検討（専攻科進学）
+● [本科生５年]酸化物蛍光体の蛍光分光装置の作製（専攻科進学）
+● [本科生５年]Fe/AlO2/Fe構造を有するTMR膜の作製（大学編入学）
+● [本科生５年]磁性ガーネットを用いた磁気イメージングに関する研究（大学編入学）
+● [本科生５年]マイクロ波照射による一酸化炭素生成による酸化シリコンの還元（就職）
+
+2014年度
+● 生体適合性ZnO電極の作製（専攻科進学）
+● ZnO:Ni磁性半導体の作製（本科卒）
+● レアメタルフリーLED用紫外線励起緑色蛍光体の合成（本科卒）
+● Zn2SiO4を母体とする蛍光体の膜作製（本科卒）
+		</textarea>
+		</div>
+		
+		<div align="center">	
+		<p id="c3"><br /><br />活動記録</p>
+		<textarea name="TextArea1" style="width: 650px; height: 400px; color: #FFF; background-color: #17aa56; font-size: small;" disabled="disabled">
+2017年度
+● 国際会議STI-GIGAKUでの学生の発表(2017/10/6,7)
+
+2016年度
+● 電子情報通信学会　総合大会へ聴講参加（2017/3/22-25）
+● 第64回応用物理学会春季学術講演会へ聴講参加（2017/3/15-18）
+● 平成28年度 応用物理学会「多元系化合物・太陽電池研究会」年末講演会で発表(2016/12/9-10)
+● 第64回応用物理学会春季学術講演会へ聴講参加(2017/3/14-17)
+● 2017年電子情報通信学会総合大会(2017/3/22-25)
+
+2015年度
+● 第5回高専-TUT太陽電池合同シンポジウムへ参加(2015/12/12-13)
+● 第76回応用物理学会秋季学術講演会へ参加（2015/9/13-9/16）
+● 第27回北海道大学教育ワークショップへ参加（2015/9/8-9/9）
+● 第8回「モノづくり起業体験交流会」へ参加（2015/8/24-8/26）
+● 平成27年度全国高等専門学校・長岡技術科学大学電気電子情報工学専攻　教職員交流集会へ参加（2015/8/7-8/8）
+● EM-NANO2015へ参加（2015/6/16-6/19）
+
+2014年度
+● スパコン利用支援活動の講習会へ参加（2015/3/17）
+● H26ジュニアサイエンスクラブ（2015/3/7）
+● 企業見学会へ参加[株式会社ニッコー]（2015/3/13）
+● H26ジュニアサイエンスクラブ（2015/2/21）
+● H26ジュニアサイエンスクラブで「光を出す，作る」を担当（2015/1/24）
+● H26ジュニアサイエンスクラブ（2014/12/6）
+● 学内研究発表会にて研究発表（2014/11/26）
+● H26ジュニアサイエンスクラブ「お金を科学する」（2014/10/4）
+● 企業見学[村田機械（株）]（2014/9/24）
+● 第75回　応用物理学会秋季学術講演会へ参加（2014/9/17-9/20）
+● H26ジュニアサイエンスクラブ「コミュニケーションを科学する」（2014/9/6）
+● 19th International Conference on Ternary and Multinary Compoundsへ参加（2014/9/1-9/5）
+● 平成２６年度 高等専門学校新任教員研修会（2014/8/20-/22）
+● 釧路高専第三回若手理・工学セミナーへの参加（2014/8/8-8/9）
+● H26ジュニアサイエンスクラブ（2014/8/2）
+● 釧路高専オープンキャンパス（2014/7/26-7/27）
+● H26ジュニアサイエンスクラブ（2014/7/4）
+● 分子線エピタキシー装置の導入（2014/6/10）
+● 長岡技術科学大学へ訪問（2014/6/6）
+● H26ジュニアサイエンスクラブ（2014/5/24）
+● H26ジュニアサイエンスクラブ（2014/4/19）
+		</textarea>
+		</div>
+		<br /><br /><br /><br />
+		
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="auto-style1">
+		<br class="auto-style3" />
+		<span class="auto-style3"><?php echo  file_get_contents("copyright.txt");?></span></td>
+	</tr>
+
+</table>
 </body>
 </html>

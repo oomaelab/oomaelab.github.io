@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="robots" content="noarchive" />
+<title>学術論文 -大前研究室-</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<?php
+    include_once '/var/www/cgi-bin/counter.php';
+    $fname = '/var/www/cgi-bin/log/counter_journal.txt';
+    $counter = new Viewcounter();
+    $counter->count( $fname );
+?> 
+
+
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td colspan="2">
+			<img alt="Logo" height="86" src="customLogo.gif" width="374" /><br />
+			本研究室では、電子材料・磁性材料・光学材料に関する研究を行っています。<br />
+			<?php echo  file_get_contents("navigator.txt");?>
+		</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top">
+		<br>リサーチマップに移行中です。<br>
+		学術論文,国内学会発表はリサーチマップに移行完了しました。<a href="https://researchmap.jp/oomae">こちら</a>です。<br><br><br>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="auto-style1"><br />
+		<span class="auto-style3"><?php echo  file_get_contents("copyright.txt");?></span></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

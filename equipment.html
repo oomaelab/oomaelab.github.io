@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="robots" content="noarchive" />
+<title>実験装置 -大前研究室-</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<!--
+<?php
+    include_once '/var/www/cgi-bin/counter.php';
+    $fname = '/var/www/cgi-bin/log/counter_equipment.txt';
+    $counter = new Viewcounter();
+    $counter->count( $fname );
+?> 
+-->
+
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td colspan="2">
+			<div align="center">
+			<img alt="Logo" height="86" src="customLogo.gif" width="374" /><br />
+			本研究室では、電子材料・磁性材料・光学材料に関する研究を行っています。<br />
+			<?php echo  file_get_contents("navigator.txt");?>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" valign="top" style="height: 669px">
+			<p><span class="auto-style5"><strong>－実験装置（卒業研究用）－</strong></span></p>
+			<br /><br />
+			
+			<p>高専5年生での卒業研究と専攻科の特別研究で使用する実験装置です。</p>
+			<p>
+			<br /><span class="auto-style6"><strong>真空蒸着装置</strong></span><br /><br />
+			<img alt="PVD2" height="240" src="PVD2.jpg" width="180" /><br />
+			<div id="c1">
+			<p id="c2">
+			　高真空中で、金属原料を載せたタングステン・ボートやモリブデン・ボートに数十アンペアの電流を流し、発生したジュール熱で金属を気化させます。
+			気化した金属は、真上に備えたシリコンなどの基板に蒸着されます。高真空は油回転ポンプと油拡散ポンプの２つで作ります。<br /><br />
+			　使用用途としては次のとおりです。<br />
+			　●　半導体への電極形成（アルミニウム電極など）<br />
+			　●　太陽電池材料である硫化すずを作るためのすず薄膜の作製(2016年)<br />
+			　●　透明n型半導体である酸化亜鉛薄膜の作製(2016年)<br /><br />
+			
+			改造履歴<br />
+			●　基板ヒーターの取り付けた（2016年6月)<br />
+			●　基板の位置を5 cmと10 cmの2つを選択できるようにした（2016年11月)<br />
+			●　基板ヒーターに熱電対を取り付け、温度のモニタリングができるようにした（2016年11月)<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大気中で温度を計測して、所定の温度になる電圧を調べたのだが、真空中に入れると100℃も違うことがわかりました。
+			
+			</p>
+			</div>
+			
+			<br /><br />
+			
+			<span class="auto-style6"><strong>雰囲気置換用の電気管状炉</strong></span><br /><br />
+			<img alt="furnace" height="180" src="Efurnace.jpg" width="240" /><br />
+			<div id="c1">
+			<p id="c2">
+			　大気だけでなく、窒素雰囲気や真空雰囲気、硫黄雰囲気で半導体や金属などの材料を熱処理するために使用しています。
+			使用用途としては次のとおりです。<br />
+			　●　半導体への電極形成<br />
+			　●　太陽電池材料である硫化すずを作るためのすず薄膜の作製<br />
+			　●　透明n型半導体である酸化亜鉛薄膜の作製
+			</p>
+			</div>
+			
+			<br /><br />
+			
+			<span class="auto-style6"><strong>ドラフトチャンバー（局所換気装置）</strong></span><br /><br />
+			<img alt="Humefood" height="321" src="images/Draft.jpg" width="241" /><br />
+			<div id="c1">
+			<p id="c2">
+			　人体に有害な薬品や溶液を扱うときに、換気を行うための装置です。
+			蒸発した薬品や溶液は室内には拡散せず、外に排気されるようになっています。
+			</p>
+			</div>
+			
+			<br /><br />
+			
+			<span class="auto-style6"><strong>低温ホール効果測定システム</strong></span><br />
+			<img alt="Humefood" height="241" src="images/Hall.jpg" width="321" /><br />
+			<div id="c1">
+			<p id="c2">
+			　電磁石により最大1Tを半導体試料に印加できる。また冷凍機により10K－300Kの温度制御が可能。<br />
+			</p>
+			</div>
+			
+			<br /><br />
+			
+			<div>
+			<p id="c3">
+			　その他、半導体・磁性体の特性を評価する装置などを保有しています。<br />
+			</p>
+			</div>
+			
+			<br /><br /><br />
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="auto-style1"><br />
+		<span class="auto-style3"><?php echo  file_get_contents("copyright.txt");?></span></td>
+	</tr>
+</table>
+
+</body>
+
+</html>
