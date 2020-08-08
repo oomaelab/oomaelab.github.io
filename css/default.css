@@ -5,6 +5,7 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 body {
 	color: #FFF;
 	background: #17aa56;
+	-webkit-text-size-adjust: 100%;
 }
 
 /* my style (クラス)*/
