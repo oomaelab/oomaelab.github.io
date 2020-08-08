@@ -23,6 +23,7 @@ function navigator2()
   html += '</p>';
   html += '</section>';
   html += '</div><!-- /container -->';
+  document.open();
   document.write(html);
   document.close();
 }
