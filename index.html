@@ -11,6 +11,23 @@
 
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<!-- jQuery library (served from Google) -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script type="text/javascript" src="jquery.bxslider/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+
+<script type="text/javascript">
+  jQuery(document).ready(function($){    
+　　$('.bxslider').bxSlider({
+  auto: true,
+  autoControls: true
+});
+  });
+</script>
+	
 <script type="text/javascript" src="js/navi.js"></script>
 
 </head>
@@ -31,6 +48,25 @@
 			
 		</td>
 	</tr>
+	<tr>
+		<td>
+			<div style="width:360px;">			
+				<ul class="bxslider" style="width:360px; height:250px;" >
+				  <li>
+					<img alt="elements" src="jquery.bxslider/elements.png" align="middle" height="193" width="287" /><br />
+				  </li>
+				  <li>
+					<img alt="crystal_top" height="167" src="jquery.bxslider/crystal_top.png" width="292" align="middle" />
+				  </li>
+				  <li>
+					  <img alt="xrd_top" height="193" src="jquery.bxslider/xrd_top.png" width="318" align="middle" /><br />
+				  </li>
+				</ul>
+			</div>
+		</td>
+		
+	</tr>
+	
 	<tr>
 	<td>
 		<div align="center">
