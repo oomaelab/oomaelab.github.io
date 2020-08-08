@@ -24,4 +24,5 @@ function navigator2()
   html += '</section>';
   html += '</div><!-- /container -->';
   document.write(html);
+  document.close();
 }
