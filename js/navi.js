@@ -11,6 +11,7 @@ function navigator()
   html += "<p>";
   html += "<button class='btn btn-1 btn-1a' onclick='location.href=\"https://oomaelab.github.io/research2.html\"'>磁性ガーネットの研究</button>";
   html += "<button class='btn btn-1 btn-1a' onclick='location.href=\"https://oomaelab.github.io/research3.html\"'>磁性シミュレーションの研究</button>";
+  html += "<button class='btn btn-1 btn-1a' onclick='location.href=\"https://oomaelab.github.io/research4.html\"'>ハーブティの研究</button>";
   html += "</p>";
   html += "<p>";
   html += "<button class='btn btn-1 btn-1a' onclick='location.href=\"https://oomaelab.github.io/member.html\"'>メンバー</button>";
