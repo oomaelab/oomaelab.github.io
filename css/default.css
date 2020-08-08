@@ -1,0 +1,52 @@
+﻿/* General Demo Style */
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+
+body {
+	color: #FFF;
+	background: #17aa56;
+}
+
+/* my style */
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	font-family: "Arial Rounded MT Bold";
+	font-size: x-large;
+}
+.auto-style3 {
+	font-size: small;
+}
+.auto-style4 {
+	font-size: large;
+}
+.auto-style5 {
+	font-size: x-large;
+}
+
+/* ブロックの中央揃え */
+#c1 { text-align: center; } 
+#c2 { text-align: left; margin-left: auto; margin-right: auto; width: 800px; } 
+#c3 { text-align: center; margin-left: auto; margin-right: auto; width: 800px; }
+
+/* To Navigation Style */
+.container {
+	height: 100%;
+	position: relative;
+}
+
+.container > section {
+	margin: 0 auto;
+	padding: 4em 2em;
+	text-align: center;
+	color: #17aa56;
+}
+
+.no-touch .note-touch {
+	display: none;
+}
+
+.color-1 {
+	background: #17aa56;
+}
