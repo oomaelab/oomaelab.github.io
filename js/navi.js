@@ -1,4 +1,5 @@
-function navigator(){
-var html = "bb";
-document.write(html);
+function navigator2()
+{
+  var html = "bb";
+  document.write(html);
 }
