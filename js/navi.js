@@ -1,13 +1,13 @@
 function navigator2()
 {
   var html = "";
-  html += "<div class='container'>";
+  //html += "<div class='container'>";
   //html += '<section class="color-1">';
   //html += '<p>';
   //html += '<button class="btn btn-1 btn-1a" onclick="location.href='https://researchmap.jp/oomae/'" target="_blank" rel="noopener noreferrer">研究成果<br>(researchmap)</button>';
   //html += '</p>';
   //html += '<p>';
-  //html += '<button class="btn btn-1 btn-1a" onclick="location.href='equipment.html'">実験装置</button>';
+  html += "<button class='btn btn-1 btn-1a' onclick='location.href='equipment.html''>実験装置</button>";
   //html += '<button class="btn btn-1 btn-1a" onclick="location.href='equipment_corp.html'">実験装置（共同研究）</button>';
   //html += '</p>';
   //html += '<p>';
