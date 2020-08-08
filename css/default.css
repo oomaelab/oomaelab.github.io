@@ -7,7 +7,11 @@ body {
 	background: #17aa56;
 }
 
-/* my style */
+/* my style (クラス)*/
+.under-logo{
+	text-align: center;
+	font-size: small;
+}
 .auto-style1 {
 	text-align: center;
 }
