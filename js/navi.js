@@ -1,10 +1,11 @@
-function navigator()
+function navigator2()
 {
   var html = "";
   html += "<div class='container'>";
   html += "<section class='color-1'>";
   html += "<p>";
   html += "<button class='btn btn-1 btn-1a' onclick='location.href='index.html''>トップページ</button>";
+  html += "<button class='btn btn-1 btn-1a' onclick='location.href='introduction.html''>研究紹介</button>";
   html += "<button class='btn btn-1 btn-1a' onclick='location.href='https://researchmap.jp/oomae/'' target='_blank' rel='noopener noreferrer'>研究成果<br>(researchmap)</button>";
   html += "</p>";
   html += "<p>";
