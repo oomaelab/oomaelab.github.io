@@ -26,26 +26,44 @@
   });
 </script>
 
-<!--
-<?php
-    include_once '/var/www/cgi-bin/counter.php';
-    $fname = '/var/www/cgi-bin/log/counter_learning.txt';
-    $counter = new Viewcounter();
-    $counter->count( $fname );
-?> 
--->
+
 
 
 </head>
 
 <body>
 
-<table style="width: 100%">
+<table style="width: 100%"　bgcolor="#17aa56">
 	<tr>
 		<td colspan="2">
 			<div align="center">
 			<img alt="Logo" height="86" src="customLogo.gif" width="374" /><br />
-			<?php echo  file_get_contents("navigator.txt");?>
+			<div class="container">
+				<section class="color-1">
+					<p>
+					<button class="btn btn-1 btn-1a" onclick="location.href='index.html'">トップページ</button>
+					<button class="btn btn-1 btn-1a" onclick="location.href='introduction.html'">研究紹介</button>
+					<button class="btn btn-1 btn-1a" onclick="location.href='https://researchmap.jp/oomae/'" target="_blank" rel="noopener">研究成果<br>(researchmap)</button>
+					</p>
+					<p>
+					<button class="btn btn-1 btn-1a" onclick="location.href='equipment.html'">実験装置</button>
+					<button class="btn btn-1 btn-1a" onclick="location.href='equipment_corp.html'">実験装置（共同研究）</button>
+					</p>
+					<p>
+					<button class="btn btn-1 btn-1a" onclick="location.href='member.html'">メンバー</button>
+					<button class="btn btn-1 btn-1a" onclick="location.href='book.html'">研究で参考になる本</button>
+					</p>
+					<p>
+					<button class="btn btn-1 btn-1a" onclick="location.href='oomaelab/index.html'">研究室内部ページ</button>
+					<button class="btn btn-1 btn-1a" onclick="location.href='learning.html'">授業のプリント</button>
+					<!--
+					<button class="btn btn-1 btn-1a" onclick="location.href='schoolonly/lecture.html'">講義ノート(学内専用）</button>
+					-->
+					</p>
+
+
+				</section>
+			</div><!-- /container -->	
 			</div>
 		</td>
 	</tr>
@@ -140,7 +158,9 @@
 	</tr>
 	<tr>
 		<td colspan="2" class="auto-style1"><br />
-		<span class="auto-style3"><?php echo  file_get_contents("copyright.txt");?></span></td>
+		<span class="auto-style3">
+			(C) 2014- 釧路工業高等専門学校 創造工学科 エレクトロニクスコース　機能材料研究室. All rights reserved.
+		</span></td>
 	</tr>
 </table>
 
