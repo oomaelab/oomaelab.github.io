@@ -1,4 +1,4 @@
-function navigator2()
+function navigator()
 {
   var html = "";
   html += "<div class='container'>";
