@@ -3,13 +3,13 @@
 .btn {
 	border: none;
 	font-family: inherit;
-	font-size: inherit;
+	font-size: smaller;
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: 20px 50px;
+	padding: 10px 20px;
 	display: inline-block;
-	margin: 15px 30px;
+	margin: 15px 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
